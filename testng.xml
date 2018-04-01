@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+        <listener class-name="in.til.cms.propfile.TestInvocation"/>
+       
+    </listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="in.til.cms.denmark_e2e.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
